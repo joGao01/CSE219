@@ -1,0 +1,58 @@
+.text-area:readonly .content {
+    -fx-background-color: lightgrey;
+}
+
+#textArea .scroll-pane{
+    -fx-hbar-policy : never;
+    -fx-vbar-policy : never;
+}
+
+#textArea .scroll-bar:vertical:disabled {
+    -fx-opacity: 0;
+}
+
+#chart .chart-plot-background {
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
+
+#chart .default-color0.chart-series-line {
+
+}
+
+#chart .chart-series-line {
+    -fx-stroke: transparent;
+}
+
+#chart .chart-vertical-grid-lines{
+    -fx-stroke: transparent;
+}
+
+#chart .chart-horizontal-grid-lines{
+    -fx-stroke: transparent;
+}
+
+#chart .axis{
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+#chart .axis-tick-mark {
+    -fx-stroke: black;
+    -fx-stroke-width: 3;
+}
+
+#chart .axis-minor-tick-mark {
+    -fx-stroke-width: 2;
+}
+
+#chart .chart-vertical-zero-line, #chart .chart-horizontal-zero-line{
+    -fx-stroke: transparent;
+}
+
+/*#algTypeBox {
+    -fx-background-color: white
+} */
+
+
+

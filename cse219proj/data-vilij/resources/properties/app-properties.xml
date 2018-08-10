@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data-vilij/resources/data"/>
+        <property name="STYLESHEET_PATH" value="/stylesheet.css"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="CONFIG_ICON" value="configIcon.png"/>
+        <property name="RUN_ICON" value="runButton.png"/>
+        <property name="PAUSE_ICON" value="pauseButton.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+        <property name="CREATE_TOOLTIP" value="Create New Data"/>
+        <property name="CONFIG_TOOLTIP" value="Configure Algorithm"/>
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+        <property name="LOAD_ALERT_TITLE" value="Alert"/>
+        <property name="LOAD_ALERT_MSG1" value="Loaded Data Consists of: "/>
+        <property name="LOAD_ALERT_MSG2" value="lines. Showing first 10"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="SAVE_ERROR_TITLE" value="Error"/>
+        <property name="SAVE_ERROR_MSG" value="Unable to Save"/>
+        <property name="FORMAT_ERROR_TITLE" value="Format Error" />
+        <property name="FORMAT_ERROR_MSG" value="Format Error at Line: "/>
+        <property name="DUPLICATE_ERROR_TITLE" value="Duplicate Error" />
+        <property name="DUPLICATE_ERROR_MSG" value="Duplicate Error at Line"/>
+        <property name="ERROR_MSG" value="Error"/>
+        <property name="ERROR_TITLE" value="Some Error"/>
+        <property name="NO_DATA_TITLE" value="No data"/>
+        <property name="NO_DATA_MSG" value="No data to load"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="THERE_ARE" value="There are "/>
+
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="SCRNSHOT_EXT_TO_SHOW" value="*.png"/>
+        <property name="SCRNSHOT_EXT" value="png"/>
+        <property name="SCRNSHOT_EXT_DESC" value="PNG"/>
+        <property name="TEXT_AREA" value="Data File"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="INITIAL_FILE_NAME" value="untitled"/>
+
+        <!--LABELS-->
+        <property name="CHART_LABEL" value="DATA VISUALIZATION"/>
+        <property name="EDIT_BUTTON_LABEL1" value="Edit"/>
+        <property name="EDIT_BUTTON_LABEL2" value="Done"/>
+        <property name="ALGORITHM1" value="Algorithm 1"/>
+        <property name="ALGORITHM2" value="Algorithm 2"/>
+        <property name="ALGORITHM3" value="Algorithm 3"/>
+        <property name="MAX_ITERATIONS" value="Max Iterations: "/>
+        <property name="UPDATE_INTERVALS" value="Update Intervals: "/>
+        <property name="CONTINUOUS_RUN" value="Continuous Run: "/>
+        <property name="CLUSTER_NUMBER" value="Number of Clusters : "/>
+        <property name="RUN_LABEL" value="Run"/>
+        <property name="PAUSE_LABEL" value="Pause"/>
+
+        <!--ALGORITHMS-->
+        <property name="CLASSIFICATION_LABEL" value="Classification Algorithm"/>
+        <property name="CLUSTERING_LABEL" value="Clustering Algorithm"/>
+
+        <!--CSS LABELS -->
+        <property name = "TEXTAREA_ID" value="textArea"/>
+        <property name = "CHART_ID" value="chart"/>
+        <property name="TEXTAREA2_ID" value="ta2"/>
+
+        <property name="CHART_CSS" value=".chart-series-line"/>
+        <property name="CHART_FIRST_LINE" value=".default-color0.chart-series-line"/>
+
+
+    </property_list>
+    <property_options_list/>
+</properties>
